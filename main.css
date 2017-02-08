@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  padding-bottom: 0px;
+  color: #5a5a5a;
+}
+
+
+
+.main {
+  height: 500px;
+  margin-bottom: 60px;
+  padding: 10px;
+}
+
+
+.item {
+  height: 450px;
+  background-color: #777;
+  margin-bottom: 40px;
+  font-family: 'Raleway';
+}
+.middle {
+	text-align: center;
+}
+
+ 
+/* info section */
+
+.col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Raleway';
+}
+
+.col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: 'Raleway';
+}
+
+
+
+
+
+
