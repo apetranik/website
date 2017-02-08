@@ -48,6 +48,7 @@ body {
 h1 {
   padding: 10px;
   background: #445e7a;
+  border-radius: 10px;
   cursor: pointer;
   transition-property: background;
   transition-duration: 1s;
