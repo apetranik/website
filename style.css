@@ -1,0 +1,48 @@
+body {
+	background-color: #f0f0f5;
+	font-family: 'Roboto' arial sans-serif;
+}
+
+.navbar {
+	background-color: #8585ad;
+	padding: 5px 0;
+
+}
+
+
+
+.navbar-default .navbar-nav>li>a {
+	padding-top: 10px;
+	margin: 5px;
+	color: #fff;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #DDDDDD;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 30px;
+	font-family: 'Roboto';
+	color: #000;
+}
+.navbar-default .navbar-brand:hover {
+	color: #000;
+}
+
+
+.divider {
+	padding: 30px;
+	text-align: center;
+	color: #000;
+}
+
+.icons {
+	border-radius: 50%;
+	height: 150px;
+	vertical-align: right;
+
+}
+
+
