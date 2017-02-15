@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+	<title> Ikea </title>
+	<meta name= "viewport" content ="width=device-width, initial-scale=1.0">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+	<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+	<nav class ="navbar navbar-default">
+		<div class="container-fluid">
+			<div class = "navbar-header">
+				<a href="http://my.usc.edu" target="_blank">
+					<img class="ikea-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/2000px-Ikea_logo.svg.png"/>
+				</a>
+			</div>
+			<ul class = "nav navbar-nav">
+				<li><a href="#" onclick="click0()">Home</a></li>
+				<li><a href="#" onclick="click1()">Chairs</a></li>
+				<li><a href="#" onclick="click2()">Desks</a></li>
+				<li><a href="#" onclick="click3()">Meatballs</a></li>
+			</ul>
+		</div>
+
+	</nav>
+
+	<div class ="container" id="introduction">
+		<div clcass="row">
+			<div class="col-md-5">
+				<h1>Welcome to an IKEA Knock-off</h1>
+				<p>We are actually a rip-off</p>
+			</div>
+			<div class = "col-md-7">
+				<img class="img-responsive" src="http://www.ikea.com/PIAimages/0312397_PE429728_S5.JPG" style="height: 250px">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<h1 class="divider">Categories</h1>
+		</div>
+		<div class="row">
+			<div class="col-sm-4" id="meatballs">
+				<img class="furni-item" src="http://cdn4.bmag.com.au/bmagthumbs/750x500/2/99/c/src/wp-content/uploads/2016/09/IKEA-meatball.jpg">
+				<h2>Metaballs</h2>
+
+			</div>
+			<div class="col-sm-4" id="chairs">
+				<img class="furni-item" src="http://images.pier1.com/dis/dw/image/v2/AAID_PRD/on/demandware.static/-/Sites-pier1_master/default/dwcd617f89/images/2500470/2500470_1.jpg?sw=1600&sh=1600">
+				<h2>Chairs</h2>
+			</div>
+			<div class="col-sm-4" id="desks">
+				<img class="furni-item" src="https://secure.img1.wfcdn.com/im/34938a64/resize-w242%5Ecompr-r85/3345/33450124/default_name.gif">
+				<h2>Desks</h2>
+			</div>
+		</div>
+	</div>
+	<script>
+	function click0() {
+		var arr = [];
+		arr.push(document.getElementById('chairs'));
+		arr.push(document.getElementById('desks'));
+		arr.push(document.getElementById('meatballs'));
+		console.log(arr.length);
+		for(var i =0;i < 3; i++)
+		{
+			arr[i].style.border = "none";
+		}
+
+	}
+		function click1() {
+			var elem = document.getElementById('chairs');
+			elem.style.border = "1px solid black";
+
+
+		}
+
+		function click2() {
+			var elem = document.getElementById('desks');
+			elem.style.border = "1px solid red";
+
+
+		}
+
+		function click3() {
+			var elem = document.getElementById('meatballs');
+			elem.style.border = "1px solid steelblue";
+
+
+		}
+	</script>
+</body>
+</html>
