@@ -1,7 +1,7 @@
 
 2/14 Meeting
 
-1.Updated my website a lot
+1. Updated my website a lot
 
 2. Included a nav bar at the top
 
