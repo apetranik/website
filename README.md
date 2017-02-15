@@ -1,10 +1,14 @@
 
 2/14 Meeting
 
-Updated my website a lot
-Included a nav bar at the top
-I have a section on the bottom where I will eventually put projects. Right now it is like a mini-resume
-When you click on my photo, the background changes colors
+1.Updated my website a lot
+
+2. Included a nav bar at the top
+
+3. I have a section on the bottom where I will eventually put projects. Right now it is like a mini-resume
+
+4. When you click on my photo, the background changes colors
+
 Wasn't able to get JQuery loops to work so I deleted it
 
 
