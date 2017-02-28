@@ -1,3 +1,9 @@
+2/28 Meeting
+1. Finished Assignment #3
+I transferred all my JS to script.js
+Wrote JQuery code that creates a navbar using an array and for loop
+
+
 
 2/14 Meeting
 
@@ -28,7 +34,7 @@ I used the keywords and description meta SEO tags
 I linked to a stylesheet called main.css
 I changed the border radius of my Aliya Petranik box
 Changed the background color of the top section of my page and the box with my name
-I padded my profile image and the box with my name. 
+I padded my profile image and the box with my name.
 I imported Raleway from google fonts at the top of my stylesheet and used it as my font throughout
 I have a hover animation over the box with  my name in it. It changes color when you hover over it
 
