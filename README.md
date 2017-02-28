@@ -5,7 +5,7 @@ I transferred all my JS to script.js
 
 Wrote JQuery code that creates a navbar using an array and for loop
 
-
+-------------------------
 
 2/14 Meeting
 
