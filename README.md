@@ -1,4 +1,5 @@
 2/28 Meeting
+
 1. Finished Assignment #3
 I transferred all my JS to script.js
 Wrote JQuery code that creates a navbar using an array and for loop
